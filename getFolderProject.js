@@ -1,4 +1,3 @@
-const testFolder = '/home/zidni/Downloads/review'
 const fs = require('fs')
 
 async function main() {
