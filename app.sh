@@ -9,7 +9,7 @@ mkdir $directory/$folder
 filename=$(node /home/zidni/projects/setup-submission-review/getFilename.js)
 echo "filename: $filename"
 
-cp $directory/$filename.zip $directory/$folder/
+mv $directory/$filename.zip $directory/$folder/
 
 unzip $directory/$folder/$filename.zip -d $directory/$folder/$filename
 
