@@ -1,0 +1,15 @@
+{
+  "name": "setup-submission-review",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "bash ./app.sh"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "pg": "^8.8.0"
+  }
+}
