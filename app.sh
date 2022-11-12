@@ -19,7 +19,7 @@ konsole -e unzip $directory/$folder/$filename.zip -d $directory/$folder/$filenam
 projectFolder=$(node /home/zidni/projects/setup-submission-review/getFolderProject.js)
 
 echo "> Open VSCode on directory: $directory/$folder/$filename"
-code $directory/$folder/$filename
+code "$projectFolder"
 
 echo "> Copy env to $projectFolder/.env"
 cp /home/zidni/Documents/env/env "$projectFolder/.env"
